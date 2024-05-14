@@ -2,7 +2,50 @@
         <title>MC203 Project Instructions</title>
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
         <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="./scripts.js"></script>
 </head>
 
-<h3> Part 1: </h3>
+<pre id="myPythonCode"><code class="language-python"> 
+    def hello_world():
+    print("Hello, world!")
+</code>
+</pre>
+
+ <button onclick="copyToClipboard()">Copy Python Code</button> 
+
+ <pre><code class="language-python">
+    # Your Python code here
+</code></pre>
+
+
+
+<h3> Guided Project 1: </h3>
+<p> In this guided project, you are going to encode or encrypt a message using matrices. The invertible matrix \(A\) will serve as the key to your encoding scheme. </p>
+
+
+<p> <b> Instruction: </b> Perform the tasks below to complete the project: </p>
+
+<ol>
+<li> Read (Larson 2017, sec.2.6), examples 1, 2, 3, and 4 on how to encode and decode messages using matrices. </li>
+<li> Below is an encoded message sent to you by a friend.  You have to decode it with the help of Python. First create a list to hold the encoded message as follows:</li>
+<pre> <code> 
+        38 —14 29 56 —15 62 17 3 38 18 20 76 18 —5
+        21 29 —7 32 32 9 77 36 —8 48 33 —5 51 41
+
+        3 79 12 1 26 58 —22 49 63 —19 69 28 8 67 31
+        —11 27 41 —18 28
+</code>
+</pre>
+
+<li> Here is the next topic that you might find interesting</li>
+
+<li> <button id="myButton">Click me!</button>
+
+<script>
+document.getElementById("myButton").addEventListener("click", function() {
+    alert("Hello World!");
+});
+</script></li>
+</ol>
+
 
