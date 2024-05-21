@@ -6,5 +6,7 @@ function copyToClipboard() {
     window.getSelection().addRange(range); // to select text
     document.execCommand("copy");
     window.getSelection().removeAllRanges(); // to deselect
-    alert("Python code copied to clipboard!");
+    //alert("Python code copied to clipboard!");
+    document.getElementById("message").innerHTML = "Python code copied to clipboard!";
 }
+
